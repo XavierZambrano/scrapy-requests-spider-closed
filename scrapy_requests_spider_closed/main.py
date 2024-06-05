@@ -6,7 +6,7 @@ from scrapy.exceptions import NotConfigured
 logger = logging.getLogger(__name__)
 
 
-class SpiderClosedRequests:
+class RequestsSpiderClosed:
     def __init__(self, requests_parameters, reasons_trigger):
         self.requests_parameters = requests_parameters
         self.reasons_trigger = reasons_trigger
