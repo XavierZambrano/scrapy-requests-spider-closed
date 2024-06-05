@@ -4,22 +4,17 @@ requires = ["setuptools", "wheel"]
 [project]
 name = "scrapy-requests-spider-closed"
 version = "0.0.1"
-authors = ["Xavier Zambrano"]
-license = "MIT"
+dependencies = [
+    "scrapy",
+    "requests"
+]
+authors = [
+    {name = "Xavier Zambrano"}
+]
 description = "scrapy-requests-spider-closed is an extension to make requests when the spider is closed"
 readme = "README.md"
-homepage = "https://github.com/XavierZambrano/scrapy-requests-spider-closed"
+license = { file = "LICENSE" }
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
 
-[project.packages]
-scrapy_requests_spider_closed = { include = ["scrapy_requests_spider_closed"] }
-
-[project.scripts]
-
-[project.dependencies]
-scrapy = "*"
-requests = "*"
-
-[project.optional-dependencies]
