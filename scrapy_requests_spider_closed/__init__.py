@@ -1,1 +1,1 @@
-from .main import SpiderClosedRequests
+from .main import RequestsSpiderClosed
