@@ -30,6 +30,6 @@ You can use any parameter that the [requests](https://requests.readthedocs.io/en
 3. Enable `SpiderClosedRequests` by adding it to the `EXTENSIONS` in your `settings.py` file.
 ```python
 EXTENSIONS = {
-   "requests_spider_closed.RequestsSpiderClosed": 0,
+   "scrapy_requests_spider_closed.RequestsSpiderClosed": 0,
 }
 ```
