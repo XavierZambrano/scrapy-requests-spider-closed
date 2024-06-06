@@ -8,6 +8,11 @@ Use cases:
 - Etc.
 
 ## Installation
+Install scrapy-requests-spider-closed using pip:
+```bash
+pip install git+https://github.com/XavierZambrano/scrapy-requests-spider-closed.git
+```
+
 
 ## Configuration
 1. Add the `REQUESTS_SPIDER_CLOSED_REASONS_TRIGGER` in your `settings.py` file.
